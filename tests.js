@@ -4,9 +4,9 @@ let factoryClassTestElement = document.querySelector("#factory-class-test")
 vehicleClassTestElement.style.color = "red"
 factoryClassTestElement.style.color = "red"
 
-//wrap everything in try catch since they won't have classes to begin with
+
 try {
-    //Base Class tests basically just say they didn't break anything
+    
     let v = new Vehicle("Jord", "J-051", 2015, 50000, "12312")
     v.paint("blue")
     console.log("Test case 1 vehicle: ", v)
