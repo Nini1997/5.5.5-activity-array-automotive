@@ -5,7 +5,7 @@ class Vehicle {
       this.year = year;
       this.price = price;
       this.vin = vin;
-      this.paint = undefined; // Default paint is undefined
+      this.paint = undefined; 
     }
   
     paint(paintColor) {
